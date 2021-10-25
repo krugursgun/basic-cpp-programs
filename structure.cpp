@@ -8,6 +8,11 @@ struct student
     float avg_marks;
 };
 
+void add2num (int a, int b)
+{
+    cout << a + b;
+}
+
 int main()  {
     student s[SIZE];
     for (int i = 0; i < SIZE; i ++)
@@ -21,4 +26,8 @@ int main()  {
         cout << "Age: " << s[i].age << endl;
         cout << "Average marks: " << s[i].avg_marks << endl;
     }
+
+    
+
+    return 0;
 }

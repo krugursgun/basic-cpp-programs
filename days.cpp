@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+    
     int day;
     cout<<"enter the day's number ";
     cin>>day;
